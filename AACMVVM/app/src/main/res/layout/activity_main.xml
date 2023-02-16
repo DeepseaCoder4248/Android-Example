@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--data xml-->
+    <data>
+        <variable
+            name="viewModel"
+            type="com.puresoftware.aacmvvm.MainViewModel" />
+    </data>
+
+    <!-- 필요 xml -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <!-- back은 그냥 -->
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@{viewModel.info}"
+            android:textSize="30sp" />
+
+        <!-- call은 ()-> -->
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{()->viewModel.next()}"
+            android:text="버튼 누르면 다음명단" />
+    </LinearLayout>
+</layout>
+
+

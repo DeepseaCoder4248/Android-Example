@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.puresoftware.kotlinactivity">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KotlinActivity">
+        <activity
+            android:name=".GgangSamKotlin.RecyclerView.RecyclerViewActivity"
+            android:exported="true">
+
+
+        </activity>
+        <activity
+            android:name=".GgangSamKotlin.Fragment.FragmentActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".GgangSamKotlin.ToolbarActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".GgangSamKotlin.MenuActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GgangSamKotlin.NotificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GgangSamKotlin.DialogActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GgangSamKotlin.SAM.SAMActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GgangSamKotlin.ListenerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GgangSamKotlin.MotionEventActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GgangSamKotlin.ConstraintLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GgangSamKotlin.ViewVindingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GgangSamKotlin.NullActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GgangSamKotlin.LamdaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GgangSamKotlin.CompanionClass"
+            android:exported="false" />
+        <activity
+            android:name=".GgangSamKotlin.ObjectClass"
+            android:exported="false" />
+        <activity
+            android:name=".GgangSamKotlin.DataClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GgangSamKotlin.InheritanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GgangSamKotlin.ClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GgangSamKotlin.GrammerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeemoOnlineKotlin.KotlinActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

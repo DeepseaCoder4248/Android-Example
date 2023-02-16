@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1005719772410",
+    "project_id": "trakinggps-8d278",
+    "storage_bucket": "trakinggps-8d278.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005719772410:android:c96a63d649f77dbf84bd43",
+        "android_client_info": {
+          "package_name": "com.example.trakinggps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005719772410-9f9ejv20cou83h1dhnh33t2o187en1kk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trakinggps",
+            "certificate_hash": "642d5af71af8568ceb28a480590106cebe909b26"
+          }
+        },
+        {
+          "client_id": "1005719772410-8faoc8am0sig7k9ro4k3pt1ik819fupd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5OnxrLz3wL1GItIQ2TUa2TTEtr2G22Xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005719772410-8faoc8am0sig7k9ro4k3pt1ik819fupd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

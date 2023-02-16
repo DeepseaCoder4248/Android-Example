@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+1.m 표시가 소숫점이 모두 나옴.
+ 1.Double Distance에서 Math.floor(Distance)로 바꾸고 .0이 남음. 소숫점문제는 해결.
+ -->
+
+
+<resources></resources>
+
+
+

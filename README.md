@@ -1,1 +1,2 @@
-# Android-Example
+# Others
+기술적 연구, 실험적 연구, 폐기물등

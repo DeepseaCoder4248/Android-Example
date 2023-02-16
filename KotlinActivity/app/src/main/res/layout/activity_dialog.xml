@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GgangSamKotlin.DialogActivity">
+
+    <Button
+        android:id="@+id/btn_dialog_activity_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast" />
+
+    <Button
+        android:id="@+id/btn_dialog_activity_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="datePicker" />
+
+    <Button
+        android:id="@+id/btn_dialog_activity_timepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="timePicker" />
+
+    <Button
+        android:id="@+id/btn_dialog_activity_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alert" />
+
+    <Button
+        android:id="@+id/btn_dialog_activity_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="list" />
+
+    <Button
+        android:id="@+id/btn_dialog_activity_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="checkbox" />
+
+    <Button
+        android:id="@+id/btn_dialog_activity_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="radiobutton" />
+
+    <Button
+        android:id="@+id/btn_dialog_activity_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custodialog" />
+
+</LinearLayout>

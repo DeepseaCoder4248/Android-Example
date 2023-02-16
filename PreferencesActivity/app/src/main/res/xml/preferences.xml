@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="환경 설정">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkbox"
+            android:summary="체크박스 입니다"
+            android:title="체크박스" />
+
+        <RingtonePreference
+            android:key="ringtone"
+            android:summary="벨소리를 설정합니다"
+            android:title="링톤" />
+
+        <SwitchPreference
+            android:key="switch"
+            android:summary="스위치 입니다"
+            android:title="스위치" />
+
+        <ListPreference
+            android:defaultValue="ko"
+            android:entries="@array/language"
+            android:entryValues="@array/language_value"
+            android:key="language"
+            android:summary="언어설정 입니다."
+            android:title="언어 설정" />
+
+        <EditTextPreference
+            android:defaultValue="test"
+            android:key="backup"
+            android:summary="텍스트입력 입니다."
+            android:title="텍스트입력" />
+
+        <Preference
+            android:summary="아무것도 없는 곳입니다."
+            android:title="기본">
+
+        </Preference>
+
+        <Preference
+            android:summary="사이트를 연결합니다."
+            android:title="사이트 이동 인텐트 액션">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.naver.com" />
+        </Preference>
+
+        <!-- 실행이 안됨 팅김 -->
+        <!--        <CheckBoxPreference-->
+        <!--            android:title="백업"-->
+        <!--            android:summary="백업합니다."-->
+        <!--            android:defaultValue="false"-->
+        <!--            android:key="backup" />-->
+        <!--        <Preference-->
+        <!--            android:title="백업 주기"-->
+        <!--            android:summary="백업 주기를 설정합니다. 시간으로 지정시, 앱이 백그라운드에서 동작합니다"-->
+        <!--            android:key="bu"-->
+        <!--            android:dependency="backup"/>-->
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="실험용">
+
+        <Preference
+            android:key="activity"
+            android:summary="액티비티로 이동합니다"
+            android:title="액티비티 이동" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

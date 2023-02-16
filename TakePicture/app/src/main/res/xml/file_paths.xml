@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+<external-path name="my_images" path="Android/data/com.example.takepicture/files/Pictures"/>
+</paths>
+
+<!-- 외우거나, 어딘가에 쪽지로 저장하거나. -->
+<!-- Android/data/내 프로젝트의 패키지명으로 바꾸기/Files/Pictures -->
